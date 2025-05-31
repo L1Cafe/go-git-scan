@@ -8,3 +8,20 @@ In the future we plan to support:
 - GitLab (self-hosted)
 - Codeberg
 - Sourcehut
+
+# Running go-git-scan
+
+You will need to install Go.
+
+Then, you can simply run:
+
+```
+$ cd src
+$ go run main.go <platform> <username>
+```
+
+For example:
+
+```
+$ go run main.go github L1Cafe
+```
